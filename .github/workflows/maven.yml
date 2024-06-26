@@ -1,20 +1,8 @@
-name: Java CI with Maven
-
-on:
-  push:
-    branches: [ "main" ]
-
+name: hello-world
+'on': push
 jobs:
-  build:
-    runs-on: macos-latest
-
+  my-job:
+    runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v4
-    - name: Set up JDK 17
-      uses: actions/setup-java@v3
-      with:
-        java-version: '17'
-        distribution: 'temurin'
-        cache: maven
-    - name: Build with Maven
-      run: mvn -B package --file pom.xml
+      - name: my-step
+        run: echo "Hello World!"
