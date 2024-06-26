@@ -1,6 +1,6 @@
 
 ## Description
 
-This is a take home assessment 
+Selenium take home assessment 
 
 
