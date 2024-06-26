@@ -4,6 +4,6 @@
 Selenium take home assessment 
 
 - automated a login page
-- created a Github workflow
+- created a Github workflow.
 
 
