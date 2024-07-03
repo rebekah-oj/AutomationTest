@@ -5,9 +5,9 @@ import org.openqa.selenium.WebDriver;
 
 public class LoginPage {
 
-    private WebDriver driver;
+    private final WebDriver driver;
 
-        // Constructor
+        // initialize this driver in the Constructor
         public LoginPage(WebDriver driver) {
             this.driver = driver;
         }

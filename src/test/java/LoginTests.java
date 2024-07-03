@@ -19,6 +19,7 @@ public class LoginTests {
     private WebDriver driver;
 
 
+    //start a new browser for each test
     @Before
     public void setUp() {
         // Setup WebDriverManager for Chrome
@@ -125,8 +126,10 @@ public class LoginTests {
     }
 
 
+    //close broswer after each test
     @AfterEach
     void teardown() throws InterruptedException {
+
         // Clean up: Close driver and any associated resources
 
         Thread.sleep(10000); // 10 seconds in milliseconds
